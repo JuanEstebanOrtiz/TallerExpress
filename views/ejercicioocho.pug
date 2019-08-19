@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(rel="stylesheet", href="bower_components/boostrap/dist/css/bootstrap.min.css")
+        title Document
+    body
+    nav
+        ul.menu
+            li: a(href="/index") inicio
+            li: a(href= "/ejerciciouno") primer ejercicio
+            li: a(href= "/ejerciciodos") segundo ejercicio
+            li: a(href= "/ejerciciotres") tercer ejercicio
+            li: a(href= "/ejerciciocuatro") cuarto ejercicio
+            li: a(href= "/ejerciciocinco") quinto ejercicio
+            li: a(href= "/ejercicioseis") sexto ejercicio
+            li: a(href= "/ejerciciosiete") septimo ejercicio
+            li: a(href= "/ejercicioocho") octavo ejercicio
+    form(action="ejeocho" method="POST")
+            -
+            input(class="btn btn-danger" type="submit", value="Generar")
+            -
+    h4 La Longitud del vector es: #{Longitud_vector}
+    h4 Los Datos generados aleatoriamente para el vector son: #{array}
+    h4 Los Numeros pares son: #{par} 
+    h4 Los Suma de los Numeros pares es: #{Suma_pares}
+    h4 Los Numeros impares son: #{impar}
+    h4 Los Suma de los Numeros impares es: #{Suma_impares}

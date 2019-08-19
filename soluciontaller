@@ -1,0 +1,69 @@
+1.
+
+== Es igual Ejemplo: a == b
+=== ES estrictamente igual Ejemplo: a === b
+!= Es distinto Ejemplo: a != b
+!== Es estrictamente distinto Ejemplo: a !== b
+<,<=,>,>= Menor,menor o igual, mayor, mayor o igual Ejemplo: a <= b
+&& Operador and (y) Ejemplo: a && b
+|| Operador or (o) Ejemplo: a || b
+! Operador not (no) Ejemplo: !and
+
+2.
+if significa si, su funcionamiento es evaluar condiciones,
+si la condicion es verdadera que le ejecute el codigo pero si es falsa,
+que ejecute otro codigo.
+
+if(dondicion){
+    enunciado a ejecutar si se cumple la condicion
+}else if{
+    enunciado a ejecutar si se cumple la condicion
+}else{
+     enunciado a ejecutar si se cumple la condicion
+}
+
+3.El switch se utiliza para agilizar la toma de decisiones múltiples
+
+switch(variable){
+    case 'r':
+    caer 'R':
+        resultado = 'ROJO';
+        break;
+    case 'b':
+    cae 'B':
+        resultado = 'Azul';
+        break;
+    default:
+        resultado = 'digite las letras r,R o b,B';
+        break;
+}
+
+4.
+while (mientras) -> se usa para que la sentencia se repetirá mientras la condición sea cierta. 
+Si la condición es falsa ya desde un principio, la sentencia no se ejecuta nunca.
+
+while (condición)
+   sentencia;
+
+for (para) -> Son el numero total de veces que se desea ejecutar las acciones del Bucle, 
+este ejecuta las acciones del Bucle un numero especifico de veces y de modo automático
+controla el numero de Interacciones o pasos a través del cuerpo del bucle.
+
+for (valorInicial; CondiciónRepetición; Incremento)
+  Sentencia;
+
+for(var i = 0; i <= numero.length; i++){
+        if(numero[i]%2 == 0){
+            par.push(numero[i]);
+        }else{
+            impar.push(numero[i]);
+        }
+    }
+
+Do/while (hacer mientras) -> La estructura do while es una estructura repetitiva,
+la cual ejecuta al menos una vez su bloque repetitivo, a diferencia del while o del for que podían no ejecutar el bloque.
+Esta estructura repetitiva se utiliza cuando conocemos de antemano que por lo menos una vez se ejecutará el bloque repetitivo.
+
+do 
+sentencia;
+while (condición);
